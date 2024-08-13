@@ -1,3 +1,9 @@
+#define TdsSensorPin 27
+
+void setup() {
+    Serial.begin(115200);
+    pinMode(TdsSensorPin, INPUT);
+}
 void loop() {
     int analogValue = analogRead(TdsSensorPin);  // Read the analog value from the TDS sensor
     
