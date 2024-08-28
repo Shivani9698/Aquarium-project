@@ -14,9 +14,8 @@ Note: Add a resistor between the VCC and Signal pins (use a 4.4kΩ or 10kΩ resi
 
 - VCC: Connect to 3.3V
 - Signal: Connect to GPIO 32 (or any available ADC1 pin on the ESP32)
-- GND: Connect to **GND**
-
-Additional Notes
+- GND: Connect to GND
+Additional Note
 
 - Ensure all connections are secure and double-check the pin assignments.
 - The resistor between the VCC and Signal pin for the DSB1820 sensor helps stabilize the signal.
